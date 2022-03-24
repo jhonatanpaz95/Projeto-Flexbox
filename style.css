@@ -1,0 +1,97 @@
+body {
+    background: lightblue;
+}
+
+header{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.textoApoio {
+    padding: 20px 200px;
+    font-size: 20px;
+    font-style: arial;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    min-height: 300px;
+}
+
+div h2 {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'arial';
+    font-weight: bold;
+}
+
+/* CSS FLEXBOX */
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.flexbox > div:hover {
+    transform:scale(1.2)
+}
+
+.flexbox > div {
+    flex: 1 1 200px;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    transition-duration: 1.5s;
+}
+
+footer {
+    padding: 100px;
+    background: black;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
